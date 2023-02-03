@@ -27,16 +27,21 @@ struct ContentView: View {
                     Image("stacks_pic")
                         .resizable()
                         .frame(width: 180, height: 120)
+                    NavigationLink {
+                        lead_review()
+                    } label: {
+                        Text("Press me to navigate to another screen")
+                    }
                     
                 }
                
                 }
             }
-    }.segue(.push, tag: .pushTest, selection: $route) {
-            Text("Navigate to another screen.")
+        }
+    
         
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

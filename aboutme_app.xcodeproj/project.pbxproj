@@ -76,7 +76,6 @@
 		D936FF88298D366B0038C5FE = {
 			isa = PBXGroup;
 			children = (
-				D936FFBE298D36880038C5FE /* lead_review.swift */,
 				D936FF93298D366C0038C5FE /* aboutme_app */,
 				D936FFA4298D366D0038C5FE /* aboutme_appTests */,
 				D936FFAE298D366D0038C5FE /* aboutme_appUITests */,
@@ -97,6 +96,7 @@
 		D936FF93298D366C0038C5FE /* aboutme_app */ = {
 			isa = PBXGroup;
 			children = (
+				D936FFBE298D36880038C5FE /* lead_review.swift */,
 				D936FF94298D366C0038C5FE /* aboutme_appApp.swift */,
 				D936FF96298D366C0038C5FE /* ContentView.swift */,
 				D936FF98298D366D0038C5FE /* Assets.xcassets */,
